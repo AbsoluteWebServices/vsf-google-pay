@@ -41,3 +41,26 @@ Read more about `tokenizationSpecification` at [developers.google.com](https://d
     "allowedCardAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"]
   },
 ```
+
+Add Google Pay button to checkout page. It is recommended to replace "Place order" button with Google Pay button when Google Pay selected as payment method. 
+
+```
+...
+import GooglePayButton from 'src/modules/vsf-google-pay/components/GooglePayButton'
+
+export default {
+  ...
+  components: {
+    ...
+    GooglePayButton
+  },
+  ...
+}
+```
+
+```html
+<google-pay-button
+  v-if="paymentMethod == 'googlePay'"
+  @payment-processed="placeOrder"
+/>
+```
