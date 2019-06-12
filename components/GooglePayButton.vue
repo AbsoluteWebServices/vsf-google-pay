@@ -1,5 +1,5 @@
 <template>
-  <div :ref="id" class="asd" />
+  <div :ref="id" />
 </template>
 
 <script>
@@ -30,7 +30,7 @@ const cardPaymentMethod = Object.assign(
   }
 )
 
-const ENV_TEST = 'TEST'
+// const ENV_TEST = 'TEST'
 const ENV_PROD = 'PRODUCTION'
 
 let paymentsClient = null
