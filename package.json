@@ -1,11 +1,8 @@
 {
-  "name": "@vue-storefront/google-pay",
-  "version": "0.1.0",
+  "name": "@absolute-web/vsf-google-pay",
+  "version": "0.0.1",
   "description": "The Google Pay payment module.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "nuxt/index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -14,8 +11,9 @@
     "url": "git+https://github.com/AbsoluteWebServices/vsf-google-pay.git"
   },
   "keywords": [
-    "vue-storefront-cybersource",
+    "google-pay",
     "vsf-google-pay",
+    "vue-storefront-google-pay",
     "vue-storefront",
     "divanteltd/vue-storefront"
   ],
@@ -27,5 +25,13 @@
   },
   "homepage": "https://github.com/AbsoluteWebServices/vsf-google-pay#readme",
   "dependencies": {
-  }
+    "@vue-storefront/core": "^2.3.3"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "1.0.0-beta.21",
+    "vue": "^2.0.0 || >=3.0.0-rc.0"
+  },
+  "files": [
+    "nuxt/**/*"
+  ]
 }
