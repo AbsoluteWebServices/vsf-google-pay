@@ -1,5 +1,5 @@
 <template>
-  <div ref="buttonRef" />
+  <div ref="buttonRef" class="google-pay-button" />
 </template>
 
 <script>
@@ -248,3 +248,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.google-pay-button button {
+  display: block;
+}
+</style>
