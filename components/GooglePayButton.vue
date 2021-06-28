@@ -173,6 +173,7 @@ export default {
       if (props.disabled) {
         return
       }
+      emit('click');
       const paymentDataRequest = getGooglePaymentDataRequest()
       paymentDataRequest.transactionInfo = getGoogleTransactionInfo()
 
