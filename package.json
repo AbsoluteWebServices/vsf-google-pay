@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "The Google Pay payment module.",
   "main": "nuxt/index.js",
+  "components": "components/index.js",
   "publishConfig": {
     "access": "public"
   },
