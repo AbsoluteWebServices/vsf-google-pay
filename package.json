@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/AbsoluteWebServices/vsf-google-pay#readme",
   "dependencies": {
-    "@vue-storefront/core": "^2.3.3"
+    "@vue-storefront/core": "~2.4.1"
   },
   "peerDependencies": {
     "@vue/composition-api": "1.0.0-beta.21",
