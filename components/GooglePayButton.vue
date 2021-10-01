@@ -247,17 +247,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.google-pay-button {
-  display: flex;
-  overflow: hidden;
-}
-.google-pay-button > div {
-  display: flex;
-  max-width: 100%;
-}
-.google-pay-button button {
-  display: block;
-}
-</style>
