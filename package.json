@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbsoluteWebServices/vsf-google-pay.git"
+    "url": "https://github.com/AbsoluteWebServices/vsf-google-pay.git"
   },
   "keywords": [
     "google-pay",
@@ -26,13 +26,14 @@
   },
   "homepage": "https://github.com/AbsoluteWebServices/vsf-google-pay#readme",
   "dependencies": {
-    "@vue-storefront/core": "~2.4.1"
+    "@absolute-web/vsf-core": "^0.0.1"
   },
   "peerDependencies": {
     "@vue/composition-api": "1.0.0-beta.21",
     "vue": "^2.0.0 || >=3.0.0-rc.0"
   },
   "files": [
-    "nuxt/**/*"
+    "nuxt/**/*",
+    "components/**/*"
   ]
 }

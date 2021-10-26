@@ -4,7 +4,7 @@
 
 <script>
 import { ref, computed, onMounted } from "@vue/composition-api";
-import { useVSFContext } from "@vue-storefront/core";
+import { useVSFContext } from "@absolute-web/vsf-core";
 
 const baseRequest = {
   apiVersion: 2,
