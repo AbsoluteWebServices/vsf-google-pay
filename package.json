@@ -1,6 +1,6 @@
 {
   "name": "@absolute-web/vsf-google-pay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Google Pay payment module.",
   "main": "nuxt/index.js",
   "components": "components/index.js",
@@ -25,12 +25,10 @@
     "url": "https://github.com/AbsoluteWebServices/vsf-google-pay/issues"
   },
   "homepage": "https://github.com/AbsoluteWebServices/vsf-google-pay#readme",
-  "dependencies": {
-    "@absolute-web/vsf-core": "^0.0.1"
-  },
   "peerDependencies": {
-    "@vue/composition-api": "1.0.0-beta.21",
-    "vue": "^2.0.0 || >=3.0.0-rc.0"
+    "@absolute-web/vsf-core": "~0.0.1",
+    "vue": "^2.0.0 || >=3.0.0-rc.0",
+    "vue-demi": "latest"
   },
   "files": [
     "nuxt/**/*",
